@@ -8,11 +8,13 @@
 </head>
 <body>
     <h1>To-Do List App</h1>
-    <div class="input-container">
-        <input type="text" id="taskInput" placeholder="Add a new task...">
-        <button id="addTaskBtn">Add Task</button>
-    </div>
-    <ul id="taskList"></ul>    
+    <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="Add a new task..." required>
+        <button type="submit">Add</button>
+    </form>
+    <ul id="todo-list">
+        <li>example todo</li>
+    </ul>
     <script src="script.js"></script>
 </body>
 </html>
